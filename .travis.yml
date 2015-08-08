@@ -2,3 +2,6 @@ language: ruby
 script: ruby -e 'exit Random.rand(2) != 0'
 notifications:
   email: false
+branches:
+  only:
+    - /^patronus\/.*/
